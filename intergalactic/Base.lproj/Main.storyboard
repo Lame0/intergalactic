@@ -32,7 +32,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="JXi-PV-cO2" kind="show" id="1Ha-ny-3n8"/>
+                                    <segue destination="JXi-PV-cO2" kind="show" identifier="bluestarsegway" id="1Ha-ny-3n8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,6 +62,9 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ocd-1P-GlK"/>
+                    <connections>
+                        <outlet property="bluestar1" destination="dBQ-EL-euA" id="CkF-St-Ydk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhI-0t-Imz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

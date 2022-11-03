@@ -8,12 +8,15 @@
 import UIKit
 
 class Newscreen: UIViewController {
-
+var starName = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        bluestar1.image = UIImage(named:starName)
+
 
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var bluestar1: UIImageView!
     
 
     /*

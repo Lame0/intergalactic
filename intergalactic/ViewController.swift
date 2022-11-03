@@ -29,4 +29,14 @@ class ViewController: UIViewController {
         
         
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! Newscreen
+        if segue.identifier == "bluestarsegway" {
+            nvc.starName = "bluestar1"
+        } else {
+            nvc.starName = "redstar1"
+        }
+    }
 }
+    
+    
