@@ -4,7 +4,7 @@
 //
 //  Created by Sosa Espada, Damian - Student on 11/1/22.
 //
-
+    
 import UIKit
 
 class Newscreen: UIViewController {
@@ -15,6 +15,9 @@ var starName = ""
 
 
         // Do any additional setup after loading the view.
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.yellow
+        
     }
     @IBOutlet weak var bluestar1: UIImageView!
     

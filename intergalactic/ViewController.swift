@@ -31,12 +31,12 @@ class ViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let nvc = segue.destination as! Newscreen
+        let randomNumber = Int.random(in: 1...3)
         if segue.identifier == "bluestarsegway" {
-            nvc.starName = "bluestar1"
+            nvc.starName = "bluestar\(randomNumber)"
         } else {
-            nvc.starName = "redstar1"
+            nvc.starName = "redstar\(randomNumber)"
         }
     }
 }
-    
     
